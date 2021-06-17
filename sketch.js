@@ -14,7 +14,7 @@ var gameState = "onSling";
 
 function preload() 
 {
-    backgroundImg = loadImage("sprites/bg.png");
+    backgroundImg = loadImage("bg.png");
     getTime();
 }
 
@@ -119,11 +119,11 @@ async function getTime()
 
     if(hour >= 6 && hour <= 19 )
     {
-       bg = "sprites/bg.png";
+       bg = "bg.png";
     }
     else
     {
-       bg = "sprites/bg2.jpg";
+       bg = "bg2.jpg";
     }
 
     backgroundImg = loadImage(bg);
